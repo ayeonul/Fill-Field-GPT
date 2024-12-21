@@ -1,0 +1,41 @@
+{
+  "properties": {
+    "성적": {
+      "type": "string",
+      "description": "Reflects a student's academic performance and includes overall grade trends and grades in specific subjects. It indicates which subjects are performing well, and which subjects are performing poorly or average. If grades were expressed on a scale, a grade of 1 would be the highest and a grade of 9 would be the lowest."
+    },
+    "흥미": {
+      "type": "string",
+      "description": "Fields or activities the student is passionate about or interested in."
+    },
+    "교외활동": {
+      "type": "string",
+      "description": "Activities and experiences the student has taken part in outside of school.Volunteer work, participation in competitions or awards, etc."
+    },
+    "성격": {
+      "type": "string",
+      "description": "The student's individual characteristics and temperament."
+    },
+    "교내활동": {
+      "type": "string",
+      "description": "Clubs or activities the student is involved in within the school. This includes awards within the school."
+    },
+    "취미_특기": {
+      "type": "string",
+      "description": "Unique hobbies or abilities the student possesses. Be as specific as possible about job skills."
+    },
+    "직업가치": {
+      "type": "string",
+      "description": "Values the student considers important in a job, such as stability, independence, creativity, etc."
+    },
+    "etc": {
+      "type": "string",
+      "description": "A shorthand what user said, except for the other properties listed above."
+    },
+    "학년": {
+      "type": "string",
+      "description": "The student's current grade or school and grade (middle school grades 1-3 or high school grades 1-3), indicating their stage of education and experience. Example: 고등학교 1학년/중학교 2학년, etc."
+    }
+  },
+  "required": ["성적", "흥미", "취미_특기", "직업가치"]
+}
